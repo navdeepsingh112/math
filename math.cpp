@@ -55,6 +55,7 @@ int IntSign(int x)
 {
     return (x > 0) ? 1 : ((x < 0) ? (-1) : 0);
 }
+
 int IntSqrt(int x){
     int  od=1,fs,y=x;
     while (x>0)
@@ -68,8 +69,4 @@ int IntSqrt(int x){
     }
     
     return fs;
-}
-int main(){
-    float c;
-    cout<<IntSqrt(69);
 }
